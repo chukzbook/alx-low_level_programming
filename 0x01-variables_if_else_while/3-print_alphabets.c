@@ -3,7 +3,7 @@
  * main - Entry point
  * Description: 'print alphabets lowercase and uppercase'
  * Return: always 0
- * /
+ */
  int main(void)
 {
        int n =97;
@@ -12,11 +12,13 @@
        while (n <= 122)
        {
               putchar(n);
+	      n++;
        }      
        while (m <= 90)
        {
 	      putchar(m);
+	      m++;
        }
-	     putchar('\n')
+	     putchar('\n');
        return (0);
 }
